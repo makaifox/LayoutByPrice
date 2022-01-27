@@ -116,7 +116,7 @@ export default {
   > thead
   > tr:last-child
   > th {
-  border-bottom: none;
+  border-bottom: none !important;
 }
 
 .spacerline {

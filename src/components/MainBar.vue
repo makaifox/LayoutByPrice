@@ -1,6 +1,7 @@
 <template>
   <!-- header -->
   <v-toolbar class="mt-5" flat>
+    <v-app-bar-nav-icon></v-app-bar-nav-icon>
     <Searchbar />
     <v-btn rounded color="#E6E9FF" class="printbutton">
       <v-icon color="#2B9EDF">fas fa-print</v-icon>
@@ -82,5 +83,9 @@ export default {
 .printbutton span,
 .Createbutton span {
   padding: 1rem;
+}
+
+.v-icon .notranslate .material-icons .theme--light {
+  color: #2b9edf;
 }
 </style>

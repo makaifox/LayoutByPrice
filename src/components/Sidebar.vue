@@ -6,6 +6,12 @@
         ByPrice
       </v-list-item-title>
     </v-list-item>
+    <v-list-item class="px-2 py-5">
+      <v-btn rounded color="#FFF" class="selectButton">
+        <span>Loja - Água Verde</span>
+        <v-icon class="select-ico">fas fa-chevron-down</v-icon>
+      </v-btn>
+    </v-list-item>
     <v-list nav dense>
       <v-list-item-group v-model="selectedItem" color="#080E3D">
         <v-list-item v-for="(item, i) in items" :key="i">
@@ -57,6 +63,12 @@ div >>> .v-list a {
 }
 .logo {
   max-height: 2rem;
+}
+
+.select-ico,
+selectButton span {
+  color: #080e3d !important;
+  padding: 0 1rem;
 }
 </style>
 

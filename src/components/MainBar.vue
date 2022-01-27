@@ -32,19 +32,7 @@ export default {
   components: {
     Searchbar,
   },
-  data: () => ({
-    tab: null,
-    text: "center",
-    fill: true,
-    padding: 8,
-    radius: 10,
-    value: [0, 2, 5, 9, 5, 10, 3, 5, 0, 0, 1, 8, 2, 9, 0],
-    width: 2,
-    lineCap: "round",
-    type: "trend",
-    autoLineWidth: false,
-    fills: false,
-  }),
+  data: () => ({}),
 };
 </script>
 <style lang="sass" scoped>

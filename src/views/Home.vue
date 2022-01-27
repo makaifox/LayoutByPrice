@@ -6,68 +6,26 @@
 
     <MainBar />
     <v-divider></v-divider>
+
+    <!-- Body -->
+    <MainBody />
   </div>
 </template>
 
 <script>
 import MainBar from "../components/MainBar.vue";
+import MainBody from "../components/MainBody.vue";
 
 export default {
   name: "Home",
 
   components: {
     MainBar,
+    MainBody,
   },
-  data: () => ({
-    tab: null,
-    text: "center",
-    fill: true,
-    padding: 8,
-    radius: 10,
-    value: [0, 2, 5, 9, 5, 10, 3, 5, 0, 0, 1, 8, 2, 9, 0],
-    width: 2,
-    lineCap: "round",
-    type: "trend",
-    autoLineWidth: false,
-    fills: false,
-  }),
+  data: () => ({}),
 };
 </script>
-<style lang="sass" scoped>
-.v-card.on-hover.theme--dark
-  background-color: rgba(#FFF, 0.8)
-  >.v-card__text
-    color: #000
-</style>
+
 <style scoped>
-.border {
-  border-right: 1px solid grey;
-}
-
-.bell {
-  background-color: #e6e9ff !important;
-  border-radius: 1rem !important;
-}
-
-.v-badge,
-.printbutton,
-.Createbutton {
-  margin: 0 2rem;
-}
-
-.printbutton {
-  color: #2b9edf !important;
-  border: none;
-  box-shadow: none;
-  padding: 2rem 0;
-}
-
-.Createbutton {
-  color: #fff !important;
-}
-
-.printbutton span,
-.Createbutton span {
-  padding: 1rem;
-}
 </style>

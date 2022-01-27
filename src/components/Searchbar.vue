@@ -1,4 +1,4 @@
-              <template>
+ <template>
   <v-badge bordered top color="#4E5CDB" dot offset-x="10" offset-y="10">
     <v-autocomplete
       v-model="searchString"

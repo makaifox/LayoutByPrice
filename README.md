@@ -7,12 +7,12 @@ Vuetify
 ```
 
 
-## instalar o projeto
+## instalar o projeto pelo yarn
 ```
 yarn install
 ```
 
-### iniciar o projeeto
+### iniciar o projeto
 ```
 yarn serve
 ```
